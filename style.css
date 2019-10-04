@@ -1,0 +1,26 @@
+.box {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+    padding: 10px;
+}
+
+.box1 {background: red;}
+.box2 {background: blue;}
+.box3 {background: green;}
+.box4 {background: coral;}
+.box5 {background: palegreen;}
+.box6 {background: orange;}
+.box7 {background: purple;}
+.box8 {background: midnightblue;}
+.box9 {background: khaki;}
+.box10 {background: yellow;}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
