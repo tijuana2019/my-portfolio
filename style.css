@@ -26,12 +26,6 @@ body {
     
 }
 
-.myLinks {
-    display: inline-flex;
-    flex-direction: column;
-    list-style-type: none;
-    justify-content: space-evenly;
-}
 
 h1 {
     display: flex;
@@ -68,6 +62,9 @@ ol {
     padding: 10px 25px 10px 25px;
 }
 
+li {
+    padding: 10px 25px 10px 25px;
+}
 
 form {
     font-family: Arial, Helvetica, sans-serif;
