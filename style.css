@@ -9,6 +9,7 @@ body {
     background-image: url("grey_@2X.png");
     background-repeat: none;
     background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -31,13 +32,58 @@ body {
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 48px;
+    font-size: 40px;
     text-decoration-line: underline;
-    text-decoration-color: 
+    text-decoration-color:;
+    align-content: center; 
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.streetart {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration-line: underline;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+
+button {
+    border-radius: 5px;
+    color: lightgray;
+    padding: 5px 10px 8px 10px;
+}
+
+button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes background-color {
+    100% {
+        background-color: #4791d0;
+    }
+}
+
 </style>
