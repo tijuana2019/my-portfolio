@@ -3,8 +3,6 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-}
-body {
     background-image: url("grey_@2X.png");
     background-repeat: no-repeat;
     background-position: center;
