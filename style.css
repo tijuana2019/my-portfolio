@@ -11,13 +11,13 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 400px;
-    height: 400px;
-    border: 2px dashed #333;
+   
+    
 }
 
 .navbar {
-    display: flex;
+    display: inline-flex;
+    flex: auto;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
@@ -25,6 +25,7 @@ body {
 }
 
 .navitems {
+    list-style: none;
     display: inline-flex;
     flex-direction: column;
     justify-content: space-evenly;
