@@ -13,11 +13,12 @@ body {
 
 
 .navbar{
-    display: inline-flex;
+    display: flex;
     flex: 1;
-    background-color: #CCFFFF;
+    background-color: lightgray;
     justify-content: space-evenly;
     align-items: center;
+    width: 100%;
 }
 
 .myLinks {
