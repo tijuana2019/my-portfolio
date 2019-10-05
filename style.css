@@ -4,11 +4,21 @@
     justify-content: space-around;
     flex-direction: column;
 }
+body {
+    background-image: url(grey_@2X.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    border: 2px dashed #333;
+}
 
 nav {
     display: flex;
     justify-content: space space-evenly;
     align-items: center;
+    background-color: 
 }
 
 </style>
