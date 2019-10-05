@@ -7,7 +7,7 @@
 
 body {
     background-image: url("grey_@2X.png");
-    background-repeat: repeat;
+    background-repeat: none;
     background-size: cover;
 }
 
