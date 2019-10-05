@@ -62,6 +62,12 @@ li {
     justify-content: center;
   }
 
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 form {
     display: inline-flex;
     font-family: Arial, Helvetica, sans-serif;
