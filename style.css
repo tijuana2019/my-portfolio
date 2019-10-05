@@ -19,10 +19,14 @@ body {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
+    
 }
 
 .myLinks {
+    display: flex;
+    flex-direction: column;
     list-style-type: none;
+    
 
 }
 </style>
