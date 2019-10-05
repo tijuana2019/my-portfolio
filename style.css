@@ -16,12 +16,19 @@ body {
     border: 2px dashed #333;
 }
 
-nav {
+.navbar {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     background-color: red;
+}
+
+.navitems {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 </style>
