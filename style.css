@@ -8,20 +8,16 @@
 
 body {
     background-image: url("grey_@2X.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
-    background-size: cover;
-   
-    
+    background-size: cover; 
 }
 
 .navbar {
     display: inline-flex;
     flex: auto;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: red;
+    background-color: lightgray;
 }
 
 .navitems {
