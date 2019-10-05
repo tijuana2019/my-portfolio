@@ -6,7 +6,9 @@
 }
 
 nav {
-    display: block;
+    display: flex;
+    justify-content: space space-evenly;
+    align-items: center;
 }
 
 </style>
