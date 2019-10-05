@@ -55,9 +55,8 @@ li {
 }
 
 .column {
-    display: inline-flex;
+    display: flex;
     flex-wrap: nowrap;
-    flex-direction: column;
     width: auto;
     padding: 5px;
     justify-content: center;
