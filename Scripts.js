@@ -5,8 +5,9 @@
     }  
         
     function formAlert {
-        document.getElementsByClassName("get-input-text").onclick = function() {
-            var inputText = document.getElementById("input-text");
+        document.getElementById("submit").onclick = function() {
+            var inputText = document.getElementsByClassName("input-text");
             alert(inputText.value);
           }
 </script>
+
