@@ -1,6 +1,6 @@
 <script>
     function resetForm() {
-        document.getElementById("reset").addEventListener("click", reset());
+        document.getElementById("reset").addEventListener("click", alert());
     }
 
     function submitForm() {
@@ -9,6 +9,4 @@
         let userMsg = document.getElementById("msg");   
         document.getElementById("submit").addEventListener("click", alert("Thanks! The details you entered are: " + userName + userEmail + userMsg);
         }
-        
-
 </script>
