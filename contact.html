@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+  </head>
+  <body class="container">
+    <header>
+        <nav class="navbar">
+            <h1>Get In Touch</h1>
+        </nav>   
+    </header><br></br>
+    <br></br>
+    <form>
+        <div>
+            <label for="name">Name:</label>
+            <input class="input-text" type="text" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="mail">E-mail:</label>
+            <input class="input-text" type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+            <label for="msg">Message:</label>
+            <textarea class="input-text" id="msg" name="user_message"></textarea>
+        </div>
+        <div class="button">
+            <button id="submit" type="submit" onclick="formAlert()">Send your message</button>
+            <button id= "reset" type="reset" onclick="resetForm()">Clear</button>
+        </div>
+    </form><br></br>
+    <br></br>
+    <footer>
+        <address><a href="https://github.com/tijuana2019">Check out my portfolio on Github</a></address>
+    </footer>
+
+    <script> src="Scripts.js"</script>
+
+  </body>
+</html>
