@@ -4,11 +4,10 @@
     }
 
     function submitForm() {
-
-        
-        document.getElementById("submit").addEventListener("click", alert("The details you entered are: " + userInput);
-            
-
+        let userName = document.getElementById("name");
+        let userEmail = document.getElementById("mail");
+        let userMsg = document.getElementById("msg");   
+        document.getElementById("submit").addEventListener("click", alert("Thanks! The details you entered are: " + userName + userEmail + userMsg);
         }
         
 

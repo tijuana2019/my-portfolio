@@ -15,18 +15,18 @@
     <form action="/my-handling-form-page" method="post">
         <div>
             <label for="name">Name:</label>
-            <input class="userInput" type="text" id="name" name="user_name">
+            <input type="text" id="name" name="user_name">
         </div>
         <div>
             <label for="mail">E-mail:</label>
-            <input class="userInput" type="email" id="mail" name="user_mail">
+            <input type="email" id="mail" name="user_mail">
         </div>
         <div>
             <label for="msg">Message:</label>
-            <textarea class="userInput" id="msg" name="user_message"></textarea>
+            <textarea id="msg" name="user_message"></textarea>
         </div>
         <div class="button">
-            <button id="submit" type="submit">Send your message</button>
+            <button id="submit" type="submit" onclick="submitForm()">Send your message</button>
             <button id= "reset" type="reset" onclick="resetForm()">Clear</button>
         </div>
     </form><br></br>
